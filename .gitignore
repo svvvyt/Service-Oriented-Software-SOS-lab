@@ -1,0 +1,69 @@
+# Системные файлы и папки
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.DS_Store
+
+# Файлы виртуального окружения
+venv/
+env/
+.venv/
+.env/
+
+# Файлы конфигурации
+*.env
+*.ini
+*.cfg
+*.local
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+*.pid
+*.seed
+*.orig
+
+# Базы данных
+*.sqlite3
+*.db
+
+# Папки с данными
+media/
+staticfiles/
+
+# Файлы для тестирования
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+.cache/
+.pytest_cache/
+
+# Файлы IDE
+*.iml
+out/
+
+# Python-специфические файлы
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Docker
+*.pid
+*.seed
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Модули
+node_modules/
+
+.idea
+
+.venv
